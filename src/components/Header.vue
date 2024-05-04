@@ -63,6 +63,7 @@ export default {
 			],
 		};
 	},
+	
 };
 </script>
 
@@ -79,7 +80,7 @@ header {
 nav {
 	height: 100%;
 }
-ul {
+ul { 
 	height: 100%;
 	@include flex(row, center, center);
 	li {
@@ -102,7 +103,7 @@ ul {
 		}
 	}
 }
-.logo {
+.logo { 
 	height: 70%;
 	cursor: pointer;
 	img {
